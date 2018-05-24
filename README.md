@@ -143,6 +143,10 @@ To test the Lua bindings:
 
     $ make testlua
 
+You may specify the lua interpreter:
+
+    $ make testlua LUA=lua5.1
+
 ## Contact
 
 Author: Josh Haberman ([jhaberman@gmail.com](mailto:jhaberman@gmail.com),
